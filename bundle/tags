@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLANG_FILETYPES	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^CLANG_FILETYPES = set( [ 'c', 'cpp', 'objc', 'objcpp' ] )$/;"	v
+ClangAvailableForFiletypes	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^def ClangAvailableForFiletypes( filetypes ):$/;"	f
+ClangCompleter	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^class ClangCompleter( Completer ):$/;"	c
+ComputeCandidatesInner	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def ComputeCandidatesInner( self, request_data ):$/;"	m	class:ClangCompleter
+ConvertCompletionData	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^def ConvertCompletionData( completion_data ):$/;"	f
+DebugInfo	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def DebugInfo( self, request_data ):$/;"	m	class:ClangCompleter
+DefinedSubcommands	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def DefinedSubcommands( self ):$/;"	m	class:ClangCompleter
+DiagnosticsToDiagStructure	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^def DiagnosticsToDiagStructure( diagnostics ):$/;"	f
+FILE_TOO_SHORT_MESSAGE	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^FILE_TOO_SHORT_MESSAGE = ($/;"	v
+GetDetailedDiagnostic	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def GetDetailedDiagnostic( self, request_data ):$/;"	m	class:ClangCompleter
+GetUnsavedFilesVector	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def GetUnsavedFilesVector( self, request_data ):$/;"	m	class:ClangCompleter
+INVALID_FILE_MESSAGE	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^INVALID_FILE_MESSAGE = 'File is invalid.'$/;"	v
+InCFamilyFile	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^def InCFamilyFile( filetypes ):$/;"	f
+MIN_LINES_IN_FILE_TO_PARSE	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^MIN_LINES_IN_FILE_TO_PARSE = 5$/;"	v
+NO_COMPILE_FLAGS_MESSAGE	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^NO_COMPILE_FLAGS_MESSAGE = 'Still no compile flags, no completions yet.'$/;"	v
+NO_COMPLETIONS_MESSAGE	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^NO_COMPLETIONS_MESSAGE = 'No completions found; errors in the file?'$/;"	v
+NO_DIAGNOSTIC_MESSAGE	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^NO_DIAGNOSTIC_MESSAGE = 'No diagnostic for current line!'$/;"	v
+OnBufferUnload	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def OnBufferUnload( self, request_data ):$/;"	m	class:ClangCompleter
+OnFileReadyToParse	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def OnFileReadyToParse( self, request_data ):$/;"	m	class:ClangCompleter
+OnUserCommand	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def OnUserCommand( self, arguments, request_data ):$/;"	m	class:ClangCompleter
+PARSING_FILE_MESSAGE	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^PARSING_FILE_MESSAGE = 'Still parsing file, no completions yet.'$/;"	v
+PRAGMA_DIAG_TEXT_TO_IGNORE	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^PRAGMA_DIAG_TEXT_TO_IGNORE = '#pragma once in main file'$/;"	v
+SupportedFiletypes	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def SupportedFiletypes( self ):$/;"	m	class:ClangCompleter
+TOO_MANY_ERRORS_DIAG_TEXT_TO_IGNORE	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^TOO_MANY_ERRORS_DIAG_TEXT_TO_IGNORE = 'too many errors emitted, stopping now'$/;"	v
+_ClearCompilationFlagCache	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def _ClearCompilationFlagCache( self ):$/;"	m	class:ClangCompleter
+_FilterDiagnostics	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^def _FilterDiagnostics( diagnostics ):$/;"	f
+_FlagsForRequest	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def _FlagsForRequest( self, request_data ):$/;"	m	class:ClangCompleter
+_GetSemanticInfo	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def _GetSemanticInfo( self, request_data, func, reparse = True ):$/;"	m	class:ClangCompleter
+_GoTo	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def _GoTo( self, request_data ):$/;"	m	class:ClangCompleter
+_GoToDeclaration	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def _GoToDeclaration( self, request_data ):$/;"	m	class:ClangCompleter
+_GoToDefinition	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def _GoToDefinition( self, request_data ):$/;"	m	class:ClangCompleter
+_GoToImprecise	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def _GoToImprecise( self, request_data ):$/;"	m	class:ClangCompleter
+_LocationForGoTo	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def _LocationForGoTo( self, goto_function, request_data, reparse = True ):$/;"	m	class:ClangCompleter
+_ResponseForLocation	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^def _ResponseForLocation( location ):$/;"	f
+__init__	YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py	/^  def __init__( self, user_options ):$/;"	m	class:ClangCompleter
